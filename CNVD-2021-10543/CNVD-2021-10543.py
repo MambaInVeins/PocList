@@ -40,7 +40,7 @@ def target_url(url):
                 print(f"   用户名: {user_names[0].text}\n   密 码: {passwords[0].text}")
             print(f"\033[32m[0] 请访问: {login_url} 进行登录！")
         else:
-            print(f"[0]  \033[32m目标系统: {url} 不存在信息泄\033[0m")
+            print(f"[0]  \033[32m目标系统: {url} 不存在信息泄露\033[0m")
     except Exception as e:
         print(f"[!]  目标系统: {url} 出现意外错误：\n {e}")
 
